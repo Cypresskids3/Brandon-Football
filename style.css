@@ -1,0 +1,308 @@
+h1 {
+
+    background-color: white;
+    padding: 10px;
+    border: solid black;
+}
+
+* {
+    overflow-x: hidden;
+    
+}
+
+
+.Red{
+    background-color: red;
+    width: 120px;
+    height: 500px;
+}
+
+
+.Orange{
+    background-color: orangered;
+    width: 120px;
+    height: 300px;
+}
+
+div {
+    overflow-y: hidden;
+}
+
+.Yellow{
+    background-color: yellow;
+    width: 120px;
+    height: 400px;
+}
+
+
+.Green{
+    background-color: green;
+    width: 120px;
+    height: 400px;
+}
+
+
+.Blue{
+    background-color: blue;
+    width: 120px;
+    height: 200px;
+}
+
+
+.Purple{
+    background-color: purple;
+    width: 120px;
+    height: 200px;
+}
+
+
+.bargraph {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    align-content: space-around;
+}
+
+
+canvas {
+    margin-right: 5px
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button{
+    background-color: green;
+}
+
+
+img{
+    border: 5px dotted red;
+}
+
+
+body{
+    background-color: aqua;
+}
+
+
+#FUN{
+    animation: Rotate 5s linear infinite;
+}
+
+
+@keyframes Rotate {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.imgCont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#titleDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    animation: slide 2s linear infinite;
+}
+
+@keyframes slide {
+
+    0% {
+        transform: translateX(0px);
+    }
+    
+    25% {
+        transform: translateX(100px);
+    }
+    
+    50% {
+        transform: translateX(0px);
+    }
+    
+    75% {
+        transform: translateX(-100px);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+    
+}
+
+
+#Title2{
+    animation: slide 2s linear infinite
+}
+
+#Titlee2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;     
+}
+
+#Title3{
+    animation: slide 2s linear infinite reverse;
+}
+
+#Titlee3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Title4{
+    display: flex;
+    justify-content: center;
+    animation: slide 2s linear infinite reverse; 
+}
+
+#Titlee4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.rotateText {
+    animation: Rotate 2s linear infinite;
+}
+
+h3 {
+    color: rgb(96, 96, 96);
+}
+
+h1{
+    color: green;
+}
+
+#AFC1{
+    width: 150px;
+    height: 100px;
+}
+
+#NFC1{
+    width: 150px;
+    height: 100px;
+}
+
+#VS1{
+    width: 150px;
+    height: 100px;
+}
+
+#AFC{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TIMELINE {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#timelineHelmets {
+    height: 380px;   
+    
+}
+
+#timelineHelmets:hover {
+    animation: Rotate 2s linear infinite;
+}
+
+#COUNTRY{
+    height: 100px;
+    width: 150px;
+}
+#COUNTRY1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rotateText {
+    animation: Rotate 2s linear infinite;
+}
+    .rotateText {
+        animation: Rotate 2s linear infinite;
+    }
+
+    h3{
+        background-color: white;
+        width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    #button{
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    #timelineHelmets:hover{
+        animation: Rotate 5s linear infinite;
+        
+    }
+
+
+    #AFC :hover{
+        animation: Rotate 5s linear infinite;
+    }
+
+
+    #COUNTRY :hover{
+        animation: Rotate 5s linear infinite;
+    }
+
+.BUTTON1{
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    z-index: -1;
+}
+
+#FootballHelmet{
+    display: flex ;
+    justify-content: center;
+}
+
+#TEAMS{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+}
